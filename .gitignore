@@ -1,0 +1,23 @@
+# Segredos
+.env
+
+# Dados locais
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# dbt e Airflow
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+airflow/logs/
+
+# Editores e sistema
+.vscode/
+.idea/
+Thumbs.db
